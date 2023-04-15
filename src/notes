@@ -1,0 +1,1 @@
+In spring all the methods in Controller must be "public" and its return type is "String". 
