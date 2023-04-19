@@ -1,1 +1,45 @@
-In spring all the methods in Controller must be "public" and its return type is "String". 
+In spring all the methods in Controller must be "public" and its return type is "String".
+
+
+notes 
+
+get mapping -- jsp 
+
+
+get -- url 
+post mapping --data -> submit -> form 
+
+
+web -> 
+
+	persist -> database 
+
+	connection
+	query  
+
+	1) mysql -mysql-connector  -- clasess12.jar --- pg.jar 
+		maven
+	-DataSource 
+	
+	2) driverName url userName password 
+
+	3) stmt -> query -> JdbcTempalte 	, DiverManagerDataSource 
+
+
+ 
+group 	
+	spring
+atrifact
+	bean
+	el
+	context
+	webmvc 
+	jdbc 
+
+
+create table users (
+	userId int primary key auto_increment,
+	firstName varchar(20),
+	email varchar(40),
+	password varchar(20)
+); 

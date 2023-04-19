@@ -1,14 +1,15 @@
 package com.bean;
 
 public class UserBean {
-	Integer userId;
 	String firstName;
 	String email;
 	String password;
-	public Integer getUserId() {
+	String userId;
+	
+	public String getUserId() {
 		return userId;
 	}
-	public void setUserId(Integer userId) {
+	public void setUserId(String userId) {
 		this.userId = userId;
 	}
 	public String getFirstName() {
